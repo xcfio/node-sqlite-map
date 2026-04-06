@@ -1,14 +1,42 @@
 {
     "name": "node-sqlite-map",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
     "author": "xcfio",
+    "homepage": "https://github.com/xcfio/node-sqlite-map#readme",
+    "type": "commonjs",
     "license": "MIT",
-    "packageManager": "pnpm@10.25.0"
+    "main": "./out/index.js",
+    "scripts": {
+        "lint": "prettier --config=.prettierrc --check src",
+        "fmt": "prettier --config=.prettierrc --write src",
+        "test": "tsc --noEmit",
+        "dev": "tsc --watch",
+        "build": "tsc"
+    },
+    "keywords": [
+        "sqlite",
+        "node-sqlite",
+        "map"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xcfio/node-sqlite-map"
+    },
+    "bugs": {
+        "url": "https://github.com/xcfio/node-sqlite-map/issues",
+        "email": "omarfaruksxp@gmail.com"
+    },
+    "packageManager": "pnpm@10.33.0",
+    "publishConfig": {
+        "access": "public",
+        "tag": "latest"
+    },
+    "engines": {
+        "node": ">=22.5"
+    },
+    "devDependencies": {
+        "@types/node": "^25.5.2"
+    }
 }
 
