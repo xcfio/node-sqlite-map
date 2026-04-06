@@ -1,5 +1,5 @@
-*.test.ts
-*.test.js
+*.test*.ts
+*.test*.js
 .github/
 src/
 .gitignore

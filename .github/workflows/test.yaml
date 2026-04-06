@@ -30,6 +30,10 @@ jobs:
             - name: Install dependencies
               run: pnpm install --no-frozen-lockfile
 
+            # Install tsx
+            - name: Install dependencies
+              run: pnpm install --save-dev tsx
+
             # Run test
             - name: Run test
               run: node --run test

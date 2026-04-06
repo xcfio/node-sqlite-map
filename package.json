@@ -10,7 +10,7 @@
     "scripts": {
         "lint": "prettier --config=.prettierrc --check src",
         "fmt": "prettier --config=.prettierrc --write src",
-        "test": "tsc --noEmit",
+        "test": "(tsc --noEmit) && (tsx src/index.test.ts)",
         "dev": "tsc --watch",
         "build": "tsc"
     },
