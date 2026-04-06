@@ -1,5 +1,6 @@
 import { DatabaseSync, DatabaseSyncOptions } from "node:sqlite"
 export { version } from "../package.json"
+export type { DatabaseSyncOptions }
 
 export class SqliteMap<K extends string, V> {
     private db: DatabaseSync

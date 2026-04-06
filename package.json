@@ -1,7 +1,7 @@
 {
     "name": "node-sqlite-map",
     "version": "0.0.1",
-    "description": "",
+    "description": "A persistent, Map-compatible key-value store for Node.js backed by node:sqlite",
     "author": "xcfio",
     "homepage": "https://github.com/xcfio/node-sqlite-map#readme",
     "type": "commonjs",
@@ -15,9 +15,11 @@
         "build": "tsc"
     },
     "keywords": [
+        "map",
+        "cache",
         "sqlite",
-        "node-sqlite",
-        "map"
+        "storage",
+        "node-sqlite"
     ],
     "repository": {
         "type": "git",
